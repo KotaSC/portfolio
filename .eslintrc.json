@@ -11,11 +11,12 @@
     "prettier"
   ],
   "parserOptions": {
-    "ecmaVersion":  "latest",
+    "ecmaVersion": "latest",
     "tsconfigRootDir": ".",
     "project": ["./tsconfig.json"],
     "sourceType": "module"
   },
+  "ignorePatterns": ["node_modules/*", "next.config.js"],
   "plugins": [
     "@typescript-eslint",
     "react",
